@@ -15,10 +15,11 @@ class TestMyCalc {
 		assertEquals(0, calc.sum(1, -1));
 	}
 	
+	@Test
 	void test_diff() {
-		assertEquals(10, calc.sum(20, 10));
-		assertEquals(0, calc.sum(1, 1));
-		assertEquals(-2, calc.sum(-1, 1));
+		assertEquals(10, calc.diff(20, 10));
+		assertEquals(0, calc.diff(1, 1));
+		assertEquals(-2, calc.diff(-1, 1));
 	}
 
 }
