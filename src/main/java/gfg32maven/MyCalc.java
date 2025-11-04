@@ -3,7 +3,9 @@ package gfg32maven;
 public class MyCalc {
 
 	public int sum (int a, int b) {
-		return (a + b);
+		int c, d;
+		c=a+b;
+		return c;
 	}
 
 	public int diff (int a, int b) {
