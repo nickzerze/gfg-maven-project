@@ -24,6 +24,10 @@ public class MyCalc {
 		return (a % b);
 	}
 	
+	public void greet () {
+		System.out.println("This is MASTER branch");;
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		MyCalc calc = new MyCalc();
@@ -32,6 +36,7 @@ public class MyCalc {
 		System.out.println("Mul is : " + calc.mul(20, 10));
 		System.out.println("Div is : " + calc.div(20, 10));
 		System.out.println("Mod is : " + calc.mod(20, 10));
+		calc.greet();
 		
 	}
 
